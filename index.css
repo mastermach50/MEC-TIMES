@@ -1,0 +1,123 @@
+@import "./styesheets/fonts.css";
+@import "./styesheets/elements.css";
+
+body {
+  font-family: "Roboto";
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+}
+
+.centre-box h1 {
+  font-family: "Chomsky";
+  font-size: 6rem;
+}
+
+.left-box,
+.right-box {
+  width: 10rem;
+  margin: auto 0;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.right-box svg {
+  margin: 0 2rem 0 auto;
+  display: block;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right-box svg:hover {
+  transform: rotate(360deg);
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  /* background-color: yellow; */
+  justify-content: center;
+}
+
+.nav-link-box {
+  display: flex;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin: auto 2rem;
+}
+
+.content {
+  display: flex;
+}
+
+.main-content {
+  width: 75vw;
+  /* background-color: pink; */
+  border-right: 1px solid black;
+}
+
+.live-event-strip {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.live-logo {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  padding: 0 1rem;
+  width: 4rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 2rem;
+}
+
+.main-articles {
+  margin: 0.5rem;
+}
+
+.large-article {
+  /* background-color: aqua; */
+  margin: 1rem;
+}
+
+.large-article .article-image img {
+  width: 100%;
+}
+
+.large-article .article-text h2 {
+  font-size: xx-large;
+  margin: 0.5rem 0;
+}
+
+.article-time {
+  color: grey;
+  font-style: italic;
+}
+
+.sidebar-content {
+  width: 25vw;
+}
+
+.sidebar-articles {
+  margin: 0.5rem;
+}
+
+.small-article {
+    margin: 1rem;
+}
+
+.small-article .article-image img {
+  width: 100%;
+}
